@@ -38,7 +38,7 @@ const TodoForm = ({ saveTodo }) => {
         color="primary"
         className={classes.margin}
       >
-        Submit
+        Add
       </Button>
     </form>
   );
