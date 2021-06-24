@@ -7,7 +7,10 @@ export default (initialValue) => {
   return {
     todos,
     addTodo: (todoText) => {
-      setTodos([...todos, todoText]);
+      let list = [...todos];
+      list=[...list, {id: todos.length + 1, title:todoText, isActive:false}]
+      console.log(list);
+      setTodos(list);
     },
     deleteTodo: (todoIndex) => {
       const newTodos = todos.filter((_, index) => index !== todoIndex);

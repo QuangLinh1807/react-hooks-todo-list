@@ -26,7 +26,8 @@ const TodoList = ({ todos, deleteTodo }) => {
           button
           className={classes.marginRight}
         >
-          <ListItemText primary={todo} />
+          <ListItemText primary={todo.id} />
+          <ListItemText primary={todo.title} />
           <ListItemSecondaryAction>
             <IconButton
               aria-label="Delete"
