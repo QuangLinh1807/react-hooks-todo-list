@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  /* background-color: aqua; */
+}
+.MuiButtonBase-root {
+  margin-right: 70px;
+  background-color: red;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
