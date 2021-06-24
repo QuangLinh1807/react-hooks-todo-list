@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import Headers from "./components/Header";
 import TodoForm from "./components/TodoForm";
 import ToDoList from "./components/TodoList";
